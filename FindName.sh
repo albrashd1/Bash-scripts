@@ -1,5 +1,6 @@
-#!/bin/bash
+#The program seach the input of the user in a from a file, and check if it exists or not
 
+#!/bin/bash
 echo "Please type the name you want: "
 read INPUT
 for NAME in $(cat names.txt); do #make sure to specify the path of the file
